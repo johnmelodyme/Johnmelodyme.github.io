@@ -1,0 +1,134 @@
+<!Doctype html>
+<!--
+    	Copyright © 2018-2019 John Melody All Rights Reserved
+__   ____  __ _____              _                 
+\ \ / /  \/  |  __ \            (_)                
+ \ V /| \  / | |__) |  _ __ ___  _ _ __   ___ _ __ 
+  > < | |\/| |  _  /  | '_ ` _ \| | '_ \ / _ \ '__|
+ / . \| |  | | | \ \  | | | | | | | | | |  __/ |   
+/_/ \_\_|  |_|_|  \_\ |_| |_| |_|_|_| |_|\___|_|  
+    "Dies ist eine einfache XMR-Mining-VM"
+    Autor : John Melody Melissa
+    https://github.com/Johnmelodyme?lang=de
+   "Dies ist eine einfache API für das XMR-Mining von https://coinhive.com?lang=de "
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{XMR}Mining-Seite</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/473825289630257152/PzHu2yli_400x400.png">
+        <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+        <script>
+            console.group("README:");
+            console.log("The Hashes is running.");
+            console.warn("This site will mine to the owner's Account.");
+            prompt("Insert Your name here: ");
+            alert("Thank you. Your Name sent to the owner for security purpose");
+            console.log(TimeRanges);
+        </script>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: black;
+            }
+
+            h1{
+                color: #00b318;
+                font-family: monospace;
+                text-align: center;
+                text-shadow: #00b318;
+            }
+
+            a{
+                color:white;
+            }
+
+            h2{
+                color: #00b318;
+                font-family: monospace;
+                font-size: 18px;
+            }
+
+            footer{
+                color:darkslategrey;
+                height: 50px;
+                padding: 500px;
+            }
+        </style>
+        <br>
+    </br>
+        <h1>
+            <!--https://coinhive.com-->
+            <a href="https://get.cryptobrowser.site/4887382" style="
+                    color: white;
+            ">
+                Einfache XMR-Mining-Seite
+            </a>
+        </h1>
+        <br>
+        <br>
+        <button onclick="startMiner()" style="margin-left:19cm;color: #00b318;background: white;font-size:18px;font-family:monospace;">Start</button>
+        <button onclick="stopMiner()" style="color: #00b318;background: white;font-size:18px;font-family:monospace;"> Stop</button>
+        <br>
+        <br>
+        <h2>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp
+                &nbsp&nbsp
+                &nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp 
+                &nbsp&nbsp&nbsp
+                &nbsp&nbsp
+                &nbsp 
+                &nbsp&nbsp
+                &nbsp
+                Hashes:
+        </h2>
+        <h1 id="hashes"></h1>
+            <script>
+               
+                //Bitte melden Sie sich für ein API-Public-Key Konto an.
+                
+                var miner = new CoinHive.Anonymous
+                ('QsqDjtagdlEOO2dKJTXbWvUZXUm9AsMg'/*Bitte nicht meins benutzen!*/, {throttle: 0.3}); 
+                
+                // Function: [Kann in "browser-Terminal"(drücken Sie F12 für Console) verwenden]
+                // Console syntax: ` startMiner(); ` für halt or ` stopMiner(); `
+                function startMiner(){
+                    miner.start();
+                }
+
+                 /*
+                Laden Sie den Coinhive Miner und starten Sie Mining mit den empfohlenen Einstellungen 
+                - 70% CPU-Auslastung, auf dem Mobiltelefon deaktiviert.
+                Sie können den Bergmann aus laden
+                https://coinhive.com/lib/coinhive.min.js 
+                stattdessen, wenn Sie den Opt-In-Bildschirm nicht anzeigen möchten.
+                */
+
+                function stopMiner(){
+                    miner.stop();
+                }
+
+                setInterval(function(){
+                    var hashesPerSecond = miner.getHashesPerSecond();
+                    var totalHashes = miner.getTotalHashes();
+                    var acceptedHashes = miner.getAcceptedHashes();
+
+                    document.getElementById("hashes").innerHTML = hashesPerSecond;
+                    console.log("hashesPerSecond");
+
+                }, 100)
+            </script>
+        <footer>
+            <p>Copyright © 2018-2019 <a href="mailto:Johnmelodyme@gmx.us" style="
+                color: navy;">John Melody Melissa</a>
+                All Rights Reserved. 
+                <br>Besuchen Sie mein Projekt in Mein <a href="https://github.com/Johnmelodyme" style="color: navy;">
+                    GitHub </a>.</p>
+        </footer>
+    </body>
+</html>
