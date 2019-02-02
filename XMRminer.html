@@ -22,9 +22,12 @@ __   ____  __ _____              _
             console.group("README:");
             console.log("The Hashes is running.");
             console.warn("This site will mine to the owner's Account.");
-            prompt("Insert Your name here: ");
-            alert("Thank you. Your Name sent to the owner for security purpose");
+            var name = prompt("Please Insert Your Name: ");
+            alert("Thank you " + name +". "+ 
+            "\n Your Name Sent To The owner For Security Purpose.");
             console.log(TimeRanges);
+            var ip = location.host;
+            console.log(ip);
         </script>
     </head>
     <body>
