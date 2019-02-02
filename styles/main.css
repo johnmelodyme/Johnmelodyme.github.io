@@ -12,7 +12,7 @@
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- * Copyright 2012-2013 Mattia Larentis
+ * 
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 .bootstrap-switch {
@@ -84,7 +84,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-brown,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-brown {
   color: #fff;
-  background: #378C3F;
+  background: #000846;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
@@ -96,7 +96,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
-  background: #18ce0f;
+  background: #000846;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
@@ -256,11 +256,11 @@
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-green ~ .bootstrap-switch-default {
-  background-color: #18ce0f;
+  background-color: #000846;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-brown ~ .bootstrap-switch-default {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-blue ~ .bootstrap-switch-default {
@@ -581,15 +581,15 @@
 }
 
 .slider.slider-primary .noUi-connect, .slider.slider-primary.noUi-connect {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .slider.slider-primary.noUi-target {
-  background-color: rgba(55, 140, 63, 0.4);
+  background-color: #000846(55, 140, 63, 0.4);
 }
 
 .slider.slider-primary .noUi-handle {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .slider.slider-info .noUi-connect, .slider.slider-info.noUi-connect {
@@ -597,7 +597,7 @@
 }
 
 .slider.slider-info.noUi-target {
-  background-color: rgba(44, 168, 255, 0.3);
+  background-color: rgba(44, 168, 255, 0.3);#18ce0f
 }
 
 .slider.slider-info .noUi-handle {
@@ -605,7 +605,7 @@
 }
 
 .slider.slider-success .noUi-connect, .slider.slider-success.noUi-connect {
-  background-color: #18ce0f;
+  background-color: #000846;
 }
 
 .slider.slider-success.noUi-target {
@@ -613,7 +613,7 @@
 }
 
 .slider.slider-success .noUi-handle {
-  background-color: #18ce0f;
+  background-color: #000846;
 }
 
 .slider.slider-warning .noUi-connect, .slider.slider-warning.noUi-connect {
@@ -2589,16 +2589,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: #000844(55, 140, 63, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #023500;
+  background: #3b00a5;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #000846;
 }
 
 .progress-container.progress-info .progress {
