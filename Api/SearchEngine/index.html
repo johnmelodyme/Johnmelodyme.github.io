@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WIKI Search</title>
+        <link rel="shortcut icon" type="image/x-icon" href="wikilogo-default.png"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <style>
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+
+*{
+    font-family: 'PT Mono', monospace;
+}
+body{
+ padding:0;
+  margin:0;
+}
+
+.container{
+    text-align:center;
+}
+
+h1{
+    margin:0px;
+}
+
+.solobg{
+    background:#f2f2f2;
+     width:100%;
+      text-align:center;
+       padding:15px;
+        color:#404040;
+         
+}
+
+span{
+    color:#AD0BFE;
+}
+
+ol{
+  color:#404040;
+   margin-top:40px;
+    background:#f2f2f2;
+     border-radius:10px;
+      text-align:center;
+       
+}
+
+input{
+    display:block;
+     width:70%;
+      margin:0 auto;
+       border-radius:;
+        border:0px ;
+         padding:7px;
+         border-right:20px solid #ff0000;
+          border-left:20px solid #ff0000;
+        
+          border-bottom:1px solid #aaa;
+           margin-top:20px;
+           outline:none
+}
+
+input:hover{
+    border-right:4px solid #ff0000;
+     border-left:4px solid #ff0000;
+      border-bottom:2px solid #f2f2f2;
+       
+       transition:0.3s;
+        width:90%;
+     
+}
+
+button{
+    margin-top:5px;
+     width:150px;
+}
+
+.footer{
+  position:fixed;
+   bottom:0;
+    text-align:center;
+      background:#f2f2f2;
+       padding:5px;
+        width:100%;
+         color:#aaa;
+    
+}
+
+        </style>
+     <div class="solobg">
+         <h1 > <span>WIKI </span>Search</h1> 
+            </div>
+        <div class="container">
+       <br>
+        </br>
+  <img src="wikilogo-default.png" width=150px>
+ <input id="searchInput" placeholder="Enter the search">
+  <button id="search" class="btn btn-success"> Search </button>
+  
+  <ol id='output'>
+    
+    </ol>
+    <h5>Powered by Wikipedia</h5>
+</div>
+ <div class="footer">
+        <h5>John Melody &copy; Copyright 2019</h5>
+    </div>
+    </body>
+</html>
