@@ -1,5 +1,18 @@
-Mozilla Public License Version 2.0
-==================================
+                    John Melody Me License Version 2.0
+======================================================================
+Copyright © 2020 JOHN MELODY ME All Rights Reserved
+
+              _       _             __  __      _           _
+            | |     | |           |  \/  |    | |         | |
+            | | ___ | |__  _ __   | \  / | ___| | ___   __| |_   _
+        _   | |/ _ \| '_ \| '_ \  | |\/| |/ _ \ |/ _ \ / _` | | | |
+       | |__| | (_) | | | | | | | | |  | |  __/ | (_) | (_| | |_| |     
+        \____/ \___/|_| |_|_| |_| |_|  |_|\___|_|\___/ \__,_|\__, |
+                                                              __/ |
+                                                             |___/
+                                                            
+                                                            v1.1.2
+======================================================================
 
 1. Definitions
 --------------
@@ -276,7 +289,7 @@ prior to termination shall survive termination.
 *  authorized under this License except under this disclaimer.         *
 *                                                                      *
 ************************************************************************
-
+************************************************************************
 ************************************************************************
 *                                                                      *
 *  7. Limitation of Liability                                          *
@@ -352,22 +365,4 @@ If You choose to distribute Source Code Form that is Incompatible With
 Secondary Licenses under the terms of this version of the License, the
 notice described in Exhibit B of this License must be attached.
 
-Exhibit A - Source Code Form License Notice
--------------------------------------------
-
-  This Source Code Form is subject to the terms of the Mozilla Public
-  License, v. 2.0. If a copy of the MPL was not distributed with this
-  file, You can obtain one at http://mozilla.org/MPL/2.0/.
-
-If it is not possible or desirable to put the notice in a particular
-file, then You may include the notice in a location (such as a LICENSE
-file in a relevant directory) where a recipient would be likely to look
-for such a notice.
-
-You may add additional accurate notices of copyright ownership.
-
-Exhibit B - "Incompatible With Secondary Licenses" Notice
----------------------------------------------------------
-
-  This Source Code Form is "Incompatible With Secondary Licenses", as
-  defined by the Mozilla Public License, v. 2.0.
+----------------------------------------------------------------------
