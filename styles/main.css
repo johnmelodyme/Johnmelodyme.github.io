@@ -609,7 +609,7 @@
 }
 
 .slider.slider-success.noUi-target {
-  background-color: rgba(24, 206, 15, 0.3);
+  background-color: #000846;
 }
 
 .slider.slider-success .noUi-handle {
@@ -666,7 +666,7 @@
 }
 
 .datepicker.datepicker-primary {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .datepicker.datepicker-primary th,
@@ -676,11 +676,11 @@
 }
 
 .datepicker.datepicker-primary:after {
-  border-bottom-color: #378C3F;
+  border-bottom-color: #000846;
 }
 
 .datepicker.datepicker-primary.datepicker-orient-top:after {
-  border-top-color: #378C3F;
+  border-top-color: #000846;
 }
 
 .datepicker.datepicker-primary .dow {
@@ -711,7 +711,7 @@
 .datepicker.datepicker-primary table tr td.active.disabled div,
 .datepicker.datepicker-primary table tr td.active.disabled:hover div {
   background-color: #FFFFFF;
-  color: #378C3F;
+  color: #000846;
 }
 
 .datepicker.datepicker-primary table tr td.day:hover div,
@@ -782,7 +782,7 @@
 .datepicker.datepicker-primary table tr td span.active:hover[disabled],
 .datepicker.datepicker-primary table tr td span.active.disabled[disabled],
 .datepicker.datepicker-primary table tr td span.active.disabled:hover[disabled] {
-  color: #378C3F;
+  color: #000846;
 }
 
 .datepicker-inline {
@@ -891,7 +891,7 @@
 }
 
 .datepicker th {
-  color: #378C3F;
+  color: #000846;
 }
 
 .table-condensed > tbody > tr > td,

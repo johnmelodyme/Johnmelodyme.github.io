@@ -1873,14 +1873,14 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-valid,
 .was-validated .custom-select:valid,
 .was-validated .form-control:valid {
-    border-color: #28a745
+    border-color: #000846;
 }
 
 .custom-select.is-valid:focus,
 .form-control.is-valid:focus,
 .was-validated .custom-select:valid:focus,
 .was-validated .form-control:valid:focus {
-    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
+    box-shadow: 0 0 0 .2rem #000846;
 }
 
 .custom-select.is-valid~.invalid-feedback,
@@ -1896,7 +1896,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-valid+.form-check-label,
 .was-validated .form-check-input:valid+.form-check-label {
-    color: #28a745
+    color: #000846;
 }
 
 .custom-control-input.is-valid~.custom-control-indicator,
@@ -1906,7 +1906,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-control-input.is-valid~.custom-control-description,
 .was-validated .custom-control-input:valid~.custom-control-description {
-    color: #28a745
+    color: #313131
 }
 
 .custom-file-input.is-valid~.custom-file-control,
