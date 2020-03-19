@@ -46,8 +46,8 @@ public class ResumeActivity extends AppCompatActivity {
         Log.d(TAG, "DeclarationInit: " + "Web.GetSetting()");
     }
 
+    // TODO onCreate()
     @Override
-    // TODO onCreate
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
