@@ -1,4 +1,5 @@
 package my.kylogger.johnmelodyme.resume.Chengtzekeong.Johnmelodyme;
+
 /**
  * Copyright 2020 © john Melody Melissa
  * <p>
@@ -19,6 +20,7 @@ package my.kylogger.johnmelodyme.resume.Chengtzekeong.Johnmelodyme;
  * @INPIREDBYGF : Tan Sin Dee <3
  * @Class: ResumeActivity.class
  */
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -32,8 +34,8 @@ public class ResumeActivity extends AppCompatActivity {
     private WebSettings webSettings;
     public static String RESUME_URL;
 
-    @SuppressLint("SetJavaScriptEnabled")
     // TODO DeclarationInit()
+    @SuppressLint("SetJavaScriptEnabled")
     public void DeclarationInit(){
         RESUME = findViewById(R.id.website);
         RESUME_URL = getResources().getString(R.string.ResumeUrl);
