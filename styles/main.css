@@ -40,7 +40,7 @@
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   margin-right: 20px;
-  background: rgba(44, 44, 44, 0.2);
+  background: rgb(255, 0, 149)
 }
 
 .bootstrap-switch .bootstrap-switch-container {
@@ -84,7 +84,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-brown,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-brown {
   color: #fff;
-  background: #000846;
+  background: rgb(255, 0, 149)
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-blue,
@@ -96,7 +96,7 @@
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-green,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-green {
   color: #fff;
-  background: #000846;
+  background: rgb(255, 0, 149)
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-orange,
@@ -130,8 +130,8 @@
   top: 0;
   left: 50%;
   padding: 0;
-  -webkit-box-shadow: 0 1px 11px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 1px 11px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 1px 11px rgb(255, 0, 149);
+          box-shadow: 0 1px 11px rgb(255, 0, 149);
 }
 
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-label {
@@ -605,15 +605,15 @@
 }
 
 .slider.slider-success .noUi-connect, .slider.slider-success.noUi-connect {
-  background-color: #000846;
+  background-color: rgb(255, 0, 149)
 }
 
 .slider.slider-success.noUi-target {
-  background-color: #000846;
+  background-color: rgb(255, 0, 149)
 }
 
 .slider.slider-success .noUi-handle {
-  background-color: #000846;
+  background-color: rgb(255, 0, 149)
 }
 
 .slider.slider-warning .noUi-connect, .slider.slider-warning.noUi-connect {
@@ -943,7 +943,7 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
   border-color: #fdf59a #fdf59a #fbed50;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgb(255, 0, 149);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   color: #000;
 }
@@ -1008,7 +1008,7 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c17a', endColorstr='#f3e97a', GradientType=0);
   border-color: #f3e97a #f3e97a #edde34;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgb(255, 0, 149);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   border-radius: 0;
 }
@@ -1057,10 +1057,10 @@
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#808080', GradientType=0);
   border-color: #808080 #808080 #595959;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgb(255, 0, 149);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   color: #fff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgb(255, 0, 149);
 }
 
 .datepicker table tr td.selected:hover,
