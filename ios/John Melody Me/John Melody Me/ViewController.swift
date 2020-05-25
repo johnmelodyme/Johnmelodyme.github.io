@@ -9,20 +9,21 @@
 import UIKit
 import WebKit
 
-class ViewController: UIViewController, WKNavigationDelegate {
+class ViewController: UIViewController, WKUIDelegate{
 
-    @IBOutlet var _resume: WKWebView!
+    @IBOutlet var resume: WKWebView!
+    
+    func loadWebView() {
+        let webconfig = WKWebViewConfiguration()
+        resume = WKWebView(frame: .zero, configuration: webconfig)
+        resume.uiDelegate = self
+        view = resume
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let _url = URL(string: "https://johnmelodyme.github.io")
-        _resume.load(URLRequest(url: _url))
+        let url = URL(string: "https://johnmelodyme.github.io")
+        let request = URLRequest(url: url!)
+        resume.load(request)
     }
-    
-    func loadWebView() {
-        _resume = WKWebView()
-        _resume.navigationDelegate = self
-        view = _resume
-    }
-    
 }
