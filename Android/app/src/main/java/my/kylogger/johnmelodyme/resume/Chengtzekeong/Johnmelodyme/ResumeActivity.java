@@ -1,4 +1,4 @@
-package my.kylogger.johnmelodyme.resume.Chengtzekeong.Johnmelodyme;
+package my.kylogger.johnmelodyme.__resume.Chengtzekeong.Johnmelodyme;
 
 /**
  * Copyright 2020 © john Melody Melissa
@@ -18,7 +18,7 @@ package my.kylogger.johnmelodyme.resume.Chengtzekeong.Johnmelodyme;
  * @Author : john Melody Melissa
  * @Copyright: john Melody Melissa  © Copyright 2020
  * @INPIREDBYGF : Tan Sin Dee <3
- * @Class: ResumeActivity.class
+ * @Class: __resumeActivity.class
  */
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,19 +28,19 @@ import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class ResumeActivity extends AppCompatActivity {
+public class __resumeActivity extends AppCompatActivity {
     public static final String TAG = "JohnMelody";
-    private WebView RESUME;
-    private WebSettings webSettings;
-    public static String RESUME_URL;
+    private WebView __resume;
+    private WebSettings __web_settings;
+    public static String ___resume_url;
 
     // TODO DeclarationInit()
     @SuppressLint("SetJavaScriptEnabled")
     public void DeclarationInit(){
-        RESUME = findViewById(R.id.website);
-        RESUME_URL = getResources().getString(R.string.ResumeUrl);
+        __resume = findViewById(R.id.website);
+        ___resume_url = getResources().getString(R.string.__resumeUrl);
 
-        WebSettings webSettings = RESUME.getSettings();
+        WebSettings __web_settings = __resume.getSettings();
         webSettings.setJavaScriptEnabled(true);
         Log.d(TAG, "DeclarationInit: ");
         Log.d(TAG, "DeclarationInit: " + "Web.GetSetting()");
@@ -51,14 +51,14 @@ public class ResumeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: " + ResumeActivity.class.getSimpleName());
+        Log.d(TAG, "onCreate: " + __resumeActivity.class.getSimpleName());
         DeclarationInit();
-        LaunchResumeWebsite();
+        Launch__resumeWebsite();
     }
 
-    // TODO LaunchResumeWebsite()
-    private void LaunchResumeWebsite() {
-        RESUME.loadUrl(RESUME_URL);
-        Log.d(TAG, "LaunchResumeWebsite: " + RESUME_URL);
+    // TODO Launch__resumeWebsite()
+    private void Launch__resumeWebsite() {
+        __resume.loadUrl(___resume_url);
+        Log.d(TAG, "Launch__resumeWebsite: " + ___resume_url);
     }
 }
