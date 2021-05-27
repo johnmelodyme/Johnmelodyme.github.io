@@ -1101,7 +1101,7 @@
 .datepicker table tr td.active:hover div,
 .datepicker table tr td.active.disabled div,
 .datepicker table tr td.active.disabled:hover div {
-  background-color: #378C3F;
+  background-color: #000846;
   color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
@@ -1127,7 +1127,7 @@
 .datepicker table tr td.active:hover[disabled] div,
 .datepicker table tr td.active.disabled[disabled] div,
 .datepicker table tr td.active.disabled:hover[disabled] div {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .datepicker table tr td.active:active,
@@ -1170,7 +1170,7 @@
 .datepicker table tr td span.active.disabled,
 .datepicker table tr td span.active.disabled:hover {
   color: #fff;
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .datepicker table tr td span.active:hover,
@@ -1193,7 +1193,7 @@
 .datepicker table tr td span.active:hover[disabled],
 .datepicker table tr td span.active.disabled[disabled],
 .datepicker table tr td span.active.disabled:hover[disabled] {
-  background-color: #378C3F;
+  background-color: #000846;
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -1506,7 +1506,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #00a91e;
+  background-color: #000846;
   color: #FFFFFF;
   font-family: monospace;
 }
@@ -1533,13 +1533,13 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #378C3F;
-  border-color: #378C3F;
+  background-color: #000846;
+  border-color: #000846;
 }
 
 .btn-primary.btn-simple {
-  color: #378C3F;
-  border-color: #378C3F;
+  color: #000846;
+  border-color: #000846;
 }
 
 .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active {
@@ -1551,7 +1551,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.btn-link {
-  color: #378C3F;
+  color: #000846;
 }
 
 .btn-primary.btn-link:hover, .btn-primary.btn-link:focus, .btn-primary.btn-link:active {
@@ -1788,7 +1788,7 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-neutral {
   background-color: #FFFFFF;
-  color: #378C3F;
+  color: #000846;
 }
 
 .btn-neutral:hover, .btn-neutral:focus, .btn-neutral:active, .btn-neutral.active, .btn-neutral:active:focus, .btn-neutral:active:hover, .btn-neutral.active:focus, .btn-neutral.active:hover,
@@ -2050,7 +2050,7 @@ fieldset[disabled]
 }
 
 .form-control:focus {
-  border: 1px solid #378C3F;
+  border: 1px solid #000846;
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0 !important;
@@ -2059,7 +2059,7 @@ fieldset[disabled]
 
 .form-control:focus + .input-group-addon,
 .form-control:focus ~ .input-group-addon {
-  border: 1px solid #378C3F;
+  border: 1px solid #000846;
   border-left: none;
   background-color: transparent;
 }
@@ -2282,7 +2282,7 @@ fieldset[disabled]
 
 .input-group-focus .input-group-addon {
   background-color: #FFFFFF;
-  border-color: #378C3F;
+  border-color: #000846;
 }
 
 .input-group-focus.form-group-no-border .input-group-addon {
@@ -2681,8 +2681,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .badge-primary {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #000846;
+  color: #000846;
 }
 
 .badge-info {
@@ -2776,8 +2776,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
-  background-color: #378C3F;
-  border-color: #378C3F;
+  background-color: #000846;
+  border-color: #000846;
 }
 
 .pagination.pagination-warning .page-item.active > .page-link, .pagination.pagination-warning .page-item.active > .page-link:focus, .pagination.pagination-warning .page-item.active > .page-link:hover {
@@ -2802,7 +2802,7 @@ textarea.form-control:focus, textarea.form-control:active {
 .pagination.pagination-neutral .page-item.active > .page-link, .pagination.pagination-neutral .page-item.active > .page-link:focus, .pagination.pagination-neutral .page-item.active > .page-link:hover {
   background-color: #FFFFFF;
   border-color: #FFFFFF;
-  color: #378C3F;
+  color: #000846;
 }
 
 button,
@@ -2822,11 +2822,11 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #000846;
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #000846;
 }
 
 h1, .h1 {
@@ -2916,7 +2916,7 @@ p {
 }
 
 .text-primary {
-  color: #378C3F !important;
+  color: #000846 !important;
 }
 
 .text-info {
@@ -2954,12 +2954,12 @@ p {
 }
 
 .blockquote.blockquote-primary {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #000846;
+  color: #000846;
 }
 
 .blockquote.blockquote-primary small {
-  color: #378C3F;
+  color: #000846;
 }
 
 .blockquote.blockquote-danger {
@@ -3047,7 +3047,7 @@ body {
 }
 
 .separator.separator-primary {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .nav-pills .nav-item .nav-link {
@@ -3207,8 +3207,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-primary > .nav-item > .nav-link.active {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #000846;
+  color: #000846;
 }
 
 .nav-tabs.nav-tabs-info > .nav-item > .nav-link.active {
@@ -3732,7 +3732,7 @@ img {
 }
 
 .popover.popover-primary {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .popover.popover-primary .popover-body {
@@ -3740,19 +3740,19 @@ img {
 }
 
 .popover.popover-primary.bs-popover-right .arrow:after {
-  border-right-color: #378C3F;
+  border-right-color: #000846;
 }
 
 .popover.popover-primary.bs-popover-top .arrow:after {
-  border-top-color: #378C3F;
+  border-top-color: #000846;
 }
 
 .popover.popover-primary.bs-popover-bottom .arrow:after {
-  border-bottom-color: #378C3F;
+  border-bottom-color: #000846;
 }
 
 .popover.popover-primary.bs-popover-left .arrow:after {
-  border-left-color: #378C3F;
+  border-left-color: #000846;
 }
 
 .popover.popover-primary .popover-header {
@@ -4495,7 +4495,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .modal.modal-mini .modal-profile i {
-  color: #378C3F;
+  color: #000846;
   font-size: 21px;
 }
 
@@ -4504,7 +4504,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .modal.modal-mini .modal-profile.modal-profile-primary {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .modal.modal-mini .modal-profile.modal-profile-danger {
@@ -4541,7 +4541,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .modal.modal-primary .modal-content {
-  background-color: #378C3F;
+  background-color: #000846;
   color: #FFFFFF;
 }
 
@@ -4631,7 +4631,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card[data-background-color="orange"] {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .card[data-background-color="red"] {
@@ -4644,6 +4644,11 @@ Created using IcoMoon - icomoon.io
 
 .card[data-background-color="blue"] {
   background-color: #2CA8FF;
+}
+
+
+.card[data-background-color="main"] {
+  background-color: #000846;
 }
 
 .card[data-background-color="green"] {
@@ -5604,13 +5609,13 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #000846;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000846), color-stop(80%, #000));
+    background: linear-gradient(#000846 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -6319,13 +6324,13 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .burger-menu .navbar-collapse:before {
-    background: #378C3F;
+    background: #000846;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000846), color-stop(80%, #000));
+    background: linear-gradient(#000846 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -7198,7 +7203,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #378C3F;
+  background-color: #000846;
 }
 
 .cc-reference .carousel-inner {
